@@ -1,13 +1,13 @@
 import React from 'react';
-import './index.less';
+import styles from './index.less';
 
 export default () => (
-  <table>
+  <table className={styles.autoTable}>
     <colgroup>
-      <col width="100" />
-      <col width="100" />
-      <col width="200" />
-      <col width="200" />
+      <col />
+      <col />
+      <col />
+      <col />
     </colgroup>
     <tbody>
       <tr>

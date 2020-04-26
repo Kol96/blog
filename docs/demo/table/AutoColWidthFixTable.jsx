@@ -1,8 +1,8 @@
 import React from 'react';
-import './index.less';
+import styles from './index.less';
 
 export default () => (
-  <table>
+  <table className={styles.fixTable}>
     <colgroup>
       <col />
       <col />
